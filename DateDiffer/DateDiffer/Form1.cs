@@ -19,7 +19,7 @@ namespace DateDiffer
 
         private void calculateDiffBtn_Click(object sender, EventArgs e)
         {
-            DateTime dateFrom = dateTimePickerFrom.Value.;
+            DateTime dateFrom = dateTimePickerFrom.Value;
             DateTime dateTo = dateTimePickerTo.Value;
 
             daysL.Text = dateTimePickerFrom.Value.ToLongTimeString();
