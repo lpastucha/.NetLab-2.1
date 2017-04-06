@@ -45,7 +45,7 @@
             // 
             // dateTimePickerFrom
             // 
-            this.dateTimePickerFrom.CustomFormat = "yyyy:MM:dd hh:mm:ss";
+            this.dateTimePickerFrom.CustomFormat = "yyyy:MM:dd HH:mm:ss";
             this.dateTimePickerFrom.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePickerFrom.Location = new System.Drawing.Point(47, 31);
             this.dateTimePickerFrom.Name = "dateTimePickerFrom";
@@ -154,7 +154,7 @@
             // 
             // dateTimePickerTo
             // 
-            this.dateTimePickerTo.CustomFormat = "yyyy:MM:dd hh:mm:ss";
+            this.dateTimePickerTo.CustomFormat = "yyyy:MM:dd HH:mm:ss";
             this.dateTimePickerTo.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateTimePickerTo.Location = new System.Drawing.Point(47, 87);
             this.dateTimePickerTo.Name = "dateTimePickerTo";
@@ -165,7 +165,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(278, 266);
             this.Controls.Add(this.dateTimePickerTo);
             this.Controls.Add(this.SecondL);
             this.Controls.Add(this.secondsLbl);
